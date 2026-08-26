@@ -233,6 +233,16 @@ blockquote.testimonial cite::before {
 
 .author-block p { margin: 0; font-size: 15px; color: var(--muted); }
 
+.author-block .linkedin-link {
+  display: inline-block;
+  margin-top: 6px;
+  font-size: 13px;
+  color: var(--muted);
+  text-decoration: none;
+}
+
+.author-block .linkedin-link:hover { color: var(--ink); }
+
 footer.site {
   border-top: 1px solid var(--line);
   margin-top: 40px;
