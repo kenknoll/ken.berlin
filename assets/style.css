@@ -1,3 +1,11 @@
+@font-face {
+  font-family: 'Newsreader';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url('/assets/fonts/newsreader.woff2') format('woff2');
+}
+
 :root {
   --ink: #1a1d1f;
   --muted: #5b6166;
@@ -5,6 +13,7 @@
   --bg: #f7f7f5;
   --accent: #1a1d1f;
   --max: 760px;
+  --heading-font: 'Newsreader', Georgia, serif;
 }
 
 * { box-sizing: border-box; }
@@ -55,6 +64,8 @@ header.site nav a:hover { color: var(--ink); }
 main { padding: 40px 0 80px; }
 
 h1 {
+  font-family: var(--heading-font);
+  font-weight: 500;
   font-size: 40px;
   line-height: 1.15;
   letter-spacing: -0.01em;
@@ -62,6 +73,8 @@ h1 {
 }
 
 h2 {
+  font-family: var(--heading-font);
+  font-weight: 500;
   font-size: 24px;
   margin: 56px 0 18px;
   letter-spacing: -0.005em;
